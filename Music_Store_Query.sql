@@ -129,7 +129,7 @@ WITH popular_genre AS
 )
 SELECT * FROM popular_genre WHERE RowNo <= 1
 
-/* Method 2: : Using Recursive */
+/* Method 2 : Using Recursive */
 
 WITH RECURSIVE
 	sales_per_country AS(
